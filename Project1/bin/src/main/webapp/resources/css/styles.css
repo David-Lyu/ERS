@@ -1,0 +1,45 @@
+body {
+  /* background-color: black; */
+  min-width: 313px;
+}
+
+#loading {
+  height: 70vh;
+}
+
+#loading > img {
+  object-fit: scale-down;
+}
+
+.login-main {
+  height: 90vh;
+}
+
+.custom-modal {
+  background-color: rgba(0, 0, 0, .7);
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 3;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.custom-modal > * {
+  width: 50%;
+  height: 50%;
+  background-color: seashell;
+}
+
+.inner-custom-modal h3{
+  text-align: center;
+  margin-bottom: 10px;
+  border-bottom: black solid 1px;
+}
+
+.inner-custom-modal > * {
+  margin: 5%;
+}
